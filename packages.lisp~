@@ -1,0 +1,2 @@
+(uiop:define-package :ecom-web
+  (:use :cl))

@@ -1,0 +1,12 @@
+(in-package :asdf-user)
+
+(defsystem "ecom-web"
+  :version "0.1.0"
+  :author "rhon"
+  :depends-on (hunchentoot
+	       easy-routes
+	       str
+	       djula
+	       )
+  :components ((:file "ecom-web")
+	       (:file "packages")))
